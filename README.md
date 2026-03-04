@@ -1,4 +1,3 @@
 ### **Oi eu sou o Lucas*
 
-![teste]([/home/lucas/Documentos/devdojo/maratona-java/images/Captura de tela.png](https://github.com/LucasSenaDev/maratona-java/blob/cf72316f95738035d7996e88cddf5551336cd92b/images/Captura%20de%20tela.png))
-apenas um teste para ver
+![image_alt](https://github.com/LucasSenaDev/maratona-java/blob/36410616f6397ac9757d30f178941df69a4ed270/Captura%20de%20tela.png)
