@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 import java.util.Locale;
 
-public class Aula05EstruturasCondicionaisExercicio {
+public class Aula05EstruturasCondicionaisExercicio01 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         double anualSalary = 75000.0;
