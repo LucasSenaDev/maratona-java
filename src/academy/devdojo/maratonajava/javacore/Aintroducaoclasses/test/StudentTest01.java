@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
 
-import academy.devdojo.maratonajava.javacore.introducaoclasses.domain.Student;
+import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.domain.Student;
 
 public class StudentTest01 {
     public static void main(String[] args) {
@@ -11,6 +11,6 @@ public class StudentTest01 {
         System.out.println(student.name);
         System.out.println(student.age);
         System.out.println(student.sex);
-
+        System.out.println(student);
     }
 }
