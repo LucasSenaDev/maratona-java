@@ -13,6 +13,9 @@ public class CarTest01 {
         car2.name = "Fusca";
         car2.model = "Wolkswagen";
         car2.year = 1982;
+
+        car1 = car2;
+
         System.out.println(car1.toString());
         System.out.println(car2.toString());
 
