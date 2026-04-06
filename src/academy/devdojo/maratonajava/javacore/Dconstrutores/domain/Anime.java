@@ -1,27 +1,34 @@
-package academy.devdojo.maratonajava.javacore.Csobrecargametodos.dominio;
+package academy.devdojo.maratonajava.javacore.Dconstrutores.domain;
 
 public class Anime {
     private String name;
     private String type;
     private int episodes;
     private String genre;
+    private String studio;
+
+    public Anime(String name, String type, int episodes, String genre) {
+        this();
+        this.name = name;
+        this.type = type;
+        this.episodes = episodes;
+        this.genre = genre;
+    }
+
+    public Anime(String name, String type, int episodes, String genre, String studio) {
+        this(name, type, episodes, genre);
+        this.studio = studio;
+    }
+
+    public Anime() {
+        System.out.println("Dentro do construtor vazio");
+    }
 
     public void print() {
         System.out.println(this.name);
         System.out.println(this.type);
         System.out.println(this.episodes);
         System.out.println(this.genre);
-    }
-
-    public void init(String name, String type, int episodes) {
-        this.name = name;
-        this.type = type;
-        this.episodes = episodes;
-    }
-
-    public void init(String name, String type, int episodes, String genre) {
-        this.init(name, type, episodes);
-        this.genre = genre;
     }
 
     public void setGenre(String genre) {
