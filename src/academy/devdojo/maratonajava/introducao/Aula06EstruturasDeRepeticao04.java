@@ -5,7 +5,7 @@ public class Aula06EstruturasDeRepeticao04 {
         double totalValue = 30000.0;
         for (int installment = (int) totalValue; installment >= 1; installment--) {
             double intallmentValue = totalValue / installment;
-            if(intallmentValue <1000) {
+            if(intallmentValue < 1000) {
                 continue;
             }
             System.out.println("Installment " + installment + " R$ " + intallmentValue);

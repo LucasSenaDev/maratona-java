@@ -1,21 +1,22 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
 
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.PrintStudent;
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Student;
 
 public class StudentTest02 {
     public static void main(String[] args) {
-        Student student1 = new Student();
-        Student student2 = new Student();
+        Student student01 = new Student();
+        Student student02 = new Student();
 
-        student1.name = "Gon";
-        student1.age = 12;
-        student1.sex = 'M';
+        student01.name = "Ichigo";
+        student01.age = 20;
+        student01.sex = 'M';
 
-        student2.name = "Naruto";
-        student2.age = 16;
-        student2.sex = 'M';
+        student02.name = "Gon";
+        student02.age = 12;
+        student02.sex = 'M';
 
-        student1.imprime();
-         student2.imprime();
+        student01.print();
+        student02.print();
     }
 }

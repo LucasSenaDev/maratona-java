@@ -22,10 +22,10 @@ public class Aula08ArraysMultidimensionais01 {
             }
         }
         System.out.println("--------------------------------");
-        for(int[] arrBase: days) {
-            for(int num: arrBase) {
-                System.out.println(num);
-            }
-        }
+       for(int[] arr: days) {
+           for(int num: arr) {
+               System.out.println(num);
+           }
+       }
     }
 }

@@ -2,11 +2,11 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain;
 
 public class Student {
     public String name;
-    public Integer age;
-    public Character sex;
+    public int age;
+    public char sex;
 
-    public void imprime() {
-        System.out.println("------------------");
+    public void print() {
+        System.out.println("----------------------------");
         System.out.println(this.name);
         System.out.println(this.age);
         System.out.println(this.sex);

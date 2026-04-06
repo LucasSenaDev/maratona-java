@@ -5,8 +5,6 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Calculato
 public class CalculatorTest02 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int num1 = 2;
-        int num2 = 3;
-        calculator.multiplicaDoisNumeros(num1, num2);
+        calculator.MultipliesTwoNumbers(20, 2);
     }
 }

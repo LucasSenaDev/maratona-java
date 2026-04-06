@@ -2,12 +2,11 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.domain.Calculator;
 
-public class CalculatorTest03 {
+public class CalculatorTest05 {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        double result = calculator.dividesTwoNumbers(20, 0);
-        System.out.println(result);
-        System.out.println("-----------");
-        calculator.dividesTwoNumbers02(10,0);
+        int[] numbers = {1,2,3,4,5};
+        calculator.sumArray(numbers);
+        calculator.sumVarArgs(1,2,3,4,5,6,7);
     }
 }
