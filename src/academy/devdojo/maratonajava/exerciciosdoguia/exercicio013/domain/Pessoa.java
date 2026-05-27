@@ -1,0 +1,41 @@
+package academy.devdojo.maratonajava.exerciciosdoguia.exercicio013.domain;
+
+public class Pessoa {
+    private String nome;
+    private int idade;
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public void maiorOuMenor() {
+        if(this.idade >= 18) {
+            System.out.println( this.idade + ", maior de idade");
+        } else {
+            System.out.println( this.idade + ", menor de idade");
+        }
+    }
+
+    public void imprimi() {
+        System.out.println("Pessoa:");
+        System.out.println(this.nome);
+        maiorOuMenor();
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+}
