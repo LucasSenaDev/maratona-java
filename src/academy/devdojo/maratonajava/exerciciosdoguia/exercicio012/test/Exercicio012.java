@@ -27,7 +27,7 @@ public class Exercicio012 {
         Produto produto3 = new Produto("Café", 11.0, 2);
 
         Produto[] produtos = {produto1, produto2, produto3};
-        FormaDePagamento formaDePagamento = PARCELADOMAIS;
+        FormaDePagamento formaDePagamento = PARCELADOMAIS; 
         int parcelas = 12;
 
         ContaAPagar contaAPagar = new ContaAPagar(produtos, formaDePagamento, parcelas);

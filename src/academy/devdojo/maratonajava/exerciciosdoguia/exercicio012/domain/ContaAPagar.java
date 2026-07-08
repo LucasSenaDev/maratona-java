@@ -30,7 +30,8 @@ public class ContaAPagar {
             return "parcelado em 2 vezes de R$ " + total;
         } else if(formaDePagamento.equals(FormaDePagamento.PARCELADOMAIS)) {
             total = (total * 1.10) / parcelas;
-            return "parcelado em " + parcelas + " de R$ " + String.format("%.2f%n", total);
+            double valorTotal = total * parcelas;
+            return "parcelado em " + parcelas + " de R$ " + String.format("%.2f%n", total) + String.format("Valor total da conta é R$ %.2f%n", valorTotal);
         }
         return "Total a pagar: R$ " + total;
     }
